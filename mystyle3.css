@@ -1,0 +1,27 @@
+/* */
+/* in your stylesheet, make sure that the entire page uses sans-serif fonts */
+* {
+  font-family: sans-serif;
+}
+
+/* make your largest headings red */
+h1 {
+  color: red;
+}
+
+/* put a black border around every element with a class of active */
+.active {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* put in this as a repeating background image! */
+body {
+  background: white url(http://images.wikia.com/adventuretimewithfinnandjake/images/3/3a/S1e1_flip_out.png) repeat top right;
+}
+
+/* make the margins around your paragraphs 20px */
+p {
+  margin: 20px;
+}
